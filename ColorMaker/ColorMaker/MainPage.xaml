@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorMaker.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Slider">
+                <Setter Property="Minimum" Value="0" />
+                <Setter Property="Maximum" Value="255" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            </Style>
+            <Style TargetType="BoxView">
+                <Setter Property="Margin" Value="1" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="10">
+        <Label Text="Color Maker" FontSize="30"/>
+        <BoxView x:Name="rgbDisplay" Color="#000000" HeightRequest="200" />
+        <Label x:Name="rgbLabel" Text="Code = #000000" Margin="0,0,0,10" />
+        <StackLayout Orientation="Horizontal" BackgroundColor="#e0e0e0">
+            <StackLayout>
+                <Label x:Name="rLabel" Text="赤: 000" />
+                <BoxView x:Name= "rDisplay" HeightRequest="20" Color="#000000"/>
+            </StackLayout>
+            <Slider x:Name="rSlider" ValueChanged="rSliderChanged" ThumbColor="#FF0000" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" BackgroundColor="#e0e0e0">
+            <StackLayout>
+                <Label x:Name="gLabel" Text="緑: 000" />
+                <BoxView x:Name="gDisplay" HeightRequest="20" Color="#000000"/>
+            </StackLayout>
+            <Slider x:Name="gSlider" ValueChanged="gSliderChanged" ThumbColor="#00FF00" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" BackgroundColor="#e0e0e0">
+            <StackLayout>
+                <Label x:Name="bLabel" Text="青: 000" />
+                <BoxView x:Name="bDisplay" HeightRequest="20" Color="#000000"/>
+            </StackLayout>
+            <Slider x:Name="bSlider" ValueChanged="bSliderChanged" ThumbColor="#0000FF" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
