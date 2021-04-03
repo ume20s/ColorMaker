@@ -1,0 +1,13 @@
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\bin\Release\netstandard2.0\ColorMaker.deps.json
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\bin\Release\netstandard2.0\ColorMaker.dll
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\bin\Release\netstandard2.0\ref\ColorMaker.dll
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\bin\Release\netstandard2.0\ColorMaker.pdb
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\App.xaml.g.cs
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ColorMaker.AssemblyInfoInputs.cache
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ColorMaker.AssemblyInfo.cs
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ColorMaker.csproj.CoreCompileInputs.cache
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\XamlC.stamp
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ColorMaker.dll
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ref\ColorMaker.dll
+F:\Xamarin\ColorMaker\ColorMaker\ColorMaker\obj\Release\netstandard2.0\ColorMaker.pdb
